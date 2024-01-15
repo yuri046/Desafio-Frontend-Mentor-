@@ -1,0 +1,55 @@
+@media (min-width: 375px){
+
+}
+
+@media (min-width: 1440px){
+    .card{
+        display: flex;
+        flex-direction: row;
+        width: 950px;
+        height: 550px;
+        margin-left: 25%;
+        font-size: 15px;
+        font-family: 'Lexend Deca';
+
+    }
+
+    .card h2{
+        font-family: 'Big Shoulders Display';
+        font-size: 45px;
+    }
+
+    .card-sedan{
+        background-color: hsl(31, 77%, 52%);
+        padding: 50px;
+        color: white;
+        border-radius: 10px 0 0 10px;
+   }
+
+   .card-suv{
+        background-color: hsl(184, 100%, 22%);
+        padding: 50px;
+        color: white;
+    }
+
+    .card-luxury{
+        background-color: hsl(179, 100%, 13%);
+        padding: 50px;
+        color: white;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid white;
+        border-radius: 30px;
+        width: 160px;
+        height: 50px;
+        margin-top: 70px;
+        color: white;
+        text-decoration: none;
+        margin-top: 100px;
+    }
+}
